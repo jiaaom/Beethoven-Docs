@@ -1,6 +1,8 @@
-# Docsify Template
+# Beethoven Documentation
 
-> A simple [Docsify](https://github.com/docsifyjs/docsify/) template for creating Markdown-based documentation sites, with no build process required.
+> This repo contains the documentation for the Beethoven Framework.
+
+This site is built using [Docsify](https://github.com/docsifyjs/docsify/).
 
 ## Site Setup
 

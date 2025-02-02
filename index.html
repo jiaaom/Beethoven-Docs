@@ -7,11 +7,23 @@
     content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
   <!-- Replace with your own title and description. -->
-  <title>Awesome Docsify Site</title>
-  <meta name="description" content="An awesome docsify site for publishing some content on the web.">
+  <title>Beethoven Docs</title>
+  <meta name="description" content="Documentation for the Beethoven Framework.">
 
   <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">  -->
+
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <!-- Custom theme styles -->
+  <style>
+    :root {
+      --font-size-l     : var(--modular-scale-2);
+      --base-font-size  : 18px;
+      --base-line-height: 1.7;
+    }
+  </style>
 
 </head>
 
@@ -21,7 +33,11 @@
   <script>
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
-      name: 'Simple Docsify Template',
+      name: 'The Beethoven Framework',
+
+      loadNavbar: true,
+
+      basePath: '/src/',
 
       // Sidebar Configuration
       auto2top: true,
