@@ -34,4 +34,4 @@ Please clone or fork the [**Beethoven Accelerator Template**](https://github.com
 ## Need Help Beyond the Doc?
 
 - Submit issues on our [GitHub repository](https://github.com/Composer-Team/Beethoven-Software)
-- Contact our [team members](https://composer-team.github.io)
+- Contact our [team members](https://jiaaom.github.io/Beethoven-Web/links/)
